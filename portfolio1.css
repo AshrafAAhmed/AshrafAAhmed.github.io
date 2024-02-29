@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Saira:ital,wght@0,700;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
 html {
   scroll-behavior: smooth;
 }
@@ -16,9 +16,28 @@ h1,h2 {
   box-sizing: 0;
   margin: 0;
   padding: 0;
-  
- 
- }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 47px;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+}
+.navbar-header {
+  margin-bottom: 20px;
+}
+.navbar-brand {
+  text-decoration: none;
+  font-family:"Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+ color: #000000 ;
+padding: 20px 10px;
+}
  
  .CTA {
    font-family: 'poppin', 'sans-serif';
@@ -36,18 +55,9 @@ h1,h2 {
   border-radius: 25px;
  }
  
- header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 21px 100px;
-   flex-wrap: wrap;
-   margin: 10px 0px;
- }
+
  
- .logo {
-   
- }
+
 .container {
   display: grid;
   grid-auto-columns: minmax(300px, auto);

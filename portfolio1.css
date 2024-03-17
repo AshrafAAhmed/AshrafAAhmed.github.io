@@ -485,9 +485,9 @@ ul li:nth-child(6) a:before {
 
 @media only screen and (max-width: 450px) {
   .container {
-  grid-auto-columns: 1fr;
-  grid-auto-rows:auto ;
-  grid-template-areas:
+    grid-template-columns: repeat(NUM_COLUMNS, 1fr);
+    grid-auto-rows:auto ;
+    grid-template-areas:
     "a" "a"
     "b"
     "c"

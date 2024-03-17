@@ -63,6 +63,8 @@ header {
   font-size: 30px;
  color: #ffffff ;
 padding: 20px 10px;
+     margin:0px auto;
+
 }
  
  .CTA {
@@ -72,6 +74,8 @@ padding: 20px 10px;
    color: #7A5EE9 ;
    text-decoration: none; 
    padding: 20px 10px;
+      margin:0px auto;
+
  }
 
  .CTA:hover {

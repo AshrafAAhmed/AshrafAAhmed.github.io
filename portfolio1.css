@@ -67,7 +67,9 @@ padding: 20px 10px;
      margin:0px auto;
 
 }
- 
+ .Email {
+   margin: 5px auto;
+ }
  .CTA {
    font-family: 'poppin', 'sans-serif';
    font-weight: 500;

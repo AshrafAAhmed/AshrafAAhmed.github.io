@@ -48,12 +48,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 21px 47px;
+  padding: 20px;
   flex-wrap: wrap;
   margin: 10px 0px;
 }
 .navbar-header {
-  margin-bottom: 20px;
+  align-items: center;
 }
 .navbar-brand {
   text-decoration: none;

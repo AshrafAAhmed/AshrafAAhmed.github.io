@@ -95,15 +95,19 @@ padding: 20px 10px;
       margin: 10px;
       gap: 1rem;
       grid-template-areas:
-            "a b"
-            "c d"
-            "e f"
-            "g h"
-            "i j"
-            
-            "z z"
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j"
+        "k l"
+        "l m"
+        "n o"
+        "p q" 
+        "r s"
+        "z z"
   
-            ;
+        ;
     }
   }
   
@@ -134,7 +138,6 @@ padding: 20px 10px;
       "q"
       "r"
       "s"
-      "t"
       "z"
     ;
     }
